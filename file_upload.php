@@ -11,7 +11,7 @@ move_uploaded_file($file['tmp_name'], $b.$file['name']);
         ## read video file size
         $contents = fread($handle, filesize($b.$file['name']));
         
-        $fi = "C:\\wamp64\\www\\ffmpeg-20190122-d92f06e-win64-static\\bin\\ffmpeg.exe -i C:/wamp64/www/upload/".$file['name']." -f null - 2>&1";
+        $fi = "C:\\wamp64\\www\\ffmpeg\\bin\\ffmpeg.exe -i C:/wamp64/www/upload/".$file['name']." -f null - 2>&1";
         fclose($handle);
        
         /*** run cmd command ***/
