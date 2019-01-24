@@ -1,4 +1,4 @@
-# duration-of-uploaded-video-file
+# find duration-of-uploaded-video-file
 
 step-1
   download ffmpeg : https://ffmpeg.zeranoe.com/builds/
