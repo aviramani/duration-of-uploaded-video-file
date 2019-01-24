@@ -1,6 +1,6 @@
 <?php
 $file = $_FILES['file'];
-
+$file['name']=preg_replace('/\s+/','_',$file['name']);
 $b="C:/wamp64/www/upload/";
 move_uploaded_file($file['tmp_name'], $b.$file['name']);
 
